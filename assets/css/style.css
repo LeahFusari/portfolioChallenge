@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-image: url("../images/White-Mountains.jpg");
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-attachment: fixed; */
+
+}
+.hero-profile-image{
+    width: 300px
+}
