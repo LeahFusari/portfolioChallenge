@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+header{
+    text-align: center;
+    background-color: rgb(86, 136, 197);
+}
+
 .hero{
     background-image: url("../images/White-Mountains.jpg");
     background-size: cover;
     background-position: 80%;
+    display: flex;
     flex-wrap: wrap;
 }
 .hero-profile-image{
@@ -17,9 +23,11 @@
 .hero nav{
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    position: absolute;
     justify-content: flex-end;
-    bottom: 50px;
+    bottom: 150px;
+    left: 400px;
+    height: fit-content;
 }
 
 .hero nav ul{
