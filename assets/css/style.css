@@ -17,6 +17,21 @@
     width: 300px
 }
 
+.hero nav{
+    display: flex;
+    align-items: flex-end;
+}
+
+.hero nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.hero nav ul li a{
+    color: white;
+    justify-content: space-evenly;
+}
+
 footer{
 
     background-image: url("../images/White-Mountains.jpg");
