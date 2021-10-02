@@ -8,18 +8,18 @@
     background-image: url("../images/White-Mountains.jpg");
     background-size: cover;
     background-position: 80%;
-    display: flex;
     flex-wrap: wrap;
-    /* background-attachment: fixed; */
-
 }
 .hero-profile-image{
-    width: 300px
+    width: 300px; 
 }
 
 .hero nav{
     display: flex;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: flex-end;
+    bottom: 50px;
 }
 
 .hero nav ul{
@@ -29,8 +29,10 @@
 
 .hero nav ul li a{
     color: white;
-    justify-content: space-evenly;
-}
+    font-family: cursive; 
+    font-size: 25px;
+    margin: 50px;
+   }
 
 footer{
 
