@@ -59,7 +59,31 @@ h2{
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-article{
+.primeContent section article{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+
+.primeContent section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.primeContent h2{
+    width: 100%;
+}
+
+.primeContent h3{
+    font-size: 20px;
+    color:white;
+}
+
+.primeContent p {
+    color: white;
+}
+
+/* article{
     width: 300px;
     height: 200px;
     margin: auto;
@@ -78,7 +102,7 @@ article{
 .interests article h3{
     font-size: 20px;
     color:white
-}
+} */
 
 .interestMusic{
     background-image: url("../images/music-background.jpg");
@@ -100,8 +124,38 @@ article{
     
 }
 
-footer{
+.project1{
+    background-image: url("../images/music-background.jpg");
+   
+}
 
-    background-image: url("../images/White-Mountains.jpg");
+.project2{
+    background-image: url("../images/music-background.jpg");
+    
+}
+
+.project3{
+    background-image: url("../images/music-background.jpg");
+    
+}
+
+.project4{
+    background-image: url("../images/music-background.jpg");
+    
+}
+
+.contactMe menu{
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+.contactMe a {
+    margin: 25px;
+}
+
+footer h3{
+
+text-align: center;
 
 }
