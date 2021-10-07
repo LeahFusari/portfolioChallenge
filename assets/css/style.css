@@ -4,48 +4,37 @@
     box-sizing: border-box;
     
 }
-
+:root{
+    --distantMountain: #5d99d7;
+}
 body {
-    background-color: #aad6e5
+    background-color: var(--distantMountain);
 }
 header{
-    text-align: center;
-    /* padding: 20px 35px; */
-   
-      /* background-color: var(--tertiary-color); */
-      /* display: flex;
-      justify-content: space-between; */
-      flex-wrap: wrap;
-      position: -webkit-sticky;
-      position: sticky;
-      top: 0;
-      background-image: url("../images/White-Mountains.jpg");
-      background-size: cover;
-      background-position: 80%;
-      background-attachment: fixed;
-      z-index: 9999;
-}
-
-header h1{
-    font-size: 60px;
-}
-
-.hero{
+    Display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     background-image: url("../images/White-Mountains.jpg");
     background-size: cover;
     background-position: 80%;
-    display: flex;
-    flex-wrap: wrap;
     background-attachment: fixed;
-}
-.hero-profile-image{
-    width: 300px; 
+    z-index: 9999;
 }
 
-.hero nav{
+header h1{
+    font-size: 50px;
+
+}
+
+
+
+header nav{
     display: flex;
     flex-wrap: wrap;
-    /* position: absolute; */
     justify-content: flex-end;
     bottom: 150px;
     left: 400px;
@@ -53,13 +42,13 @@ header h1{
    
 }
 
-.hero nav ul{
+header nav ul{
     display: flex;
     list-style: none;   
 }
 
-.hero nav ul li a{
-    color: white;
+header nav ul li a{
+    color: #2d475e;
     opacity: 0.75;
     font-family: cursive; 
     font-size: 25px;
@@ -69,8 +58,23 @@ header h1{
    .about-me {
     font-size: 18px;
     line-height: 1.2;
-    background-color: #aad6e5;
+    background-color: #5d99d7;
   }
+
+
+  .hero{
+    background-image: url("../images/White-Mountains.jpg");
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+}
+.hero-profile-image{
+    width: 300px; 
+    justify-content:flex-start;
+}
 
 h2{
     text-align: center;
@@ -91,7 +95,7 @@ h2{
 .primeContent section{
     display: flex;
     flex-wrap: wrap;
-    background-color: #aad6e5
+    background-color: var(--distantMountain)
 }
 
 .primeContent h2{
@@ -109,7 +113,7 @@ h2{
 
 
 .interestMusic{
-    background-image: url("../images/music-FF.jpg");
+    background-image: url("../images/leah-guitar.jpg");
    
 }
 
