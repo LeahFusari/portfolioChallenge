@@ -2,15 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
+body {
+    background-color: #aad6e5
+}
 header{
     text-align: center;
-    background-color: rgb(86, 136, 197);
+    /* padding: 20px 35px; */
+   
+      /* background-color: var(--tertiary-color); */
+      /* display: flex;
+      justify-content: space-between; */
+      flex-wrap: wrap;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      background-image: url("../images/White-Mountains.jpg");
+      background-size: cover;
+      background-position: 80%;
+      background-attachment: fixed;
+      z-index: 9999;
 }
 
 header h1{
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .hero{
@@ -19,6 +36,7 @@ header h1{
     background-position: 80%;
     display: flex;
     flex-wrap: wrap;
+    background-attachment: fixed;
 }
 .hero-profile-image{
     width: 300px; 
@@ -32,15 +50,17 @@ header h1{
     bottom: 150px;
     left: 400px;
     height: fit-content;
+   
 }
 
 .hero nav ul{
     display: flex;
-    list-style: none;
+    list-style: none;   
 }
 
 .hero nav ul li a{
     color: white;
+    opacity: 0.75;
     font-family: cursive; 
     font-size: 25px;
     margin: 50px;
@@ -49,25 +69,29 @@ header h1{
    .about-me {
     font-size: 18px;
     line-height: 1.2;
+    background-color: #aad6e5;
   }
 
 h2{
     text-align: center;
     font-style: italic;
-    font-size: 55px;
-    color: var(--primary-color);
+    font-size: 40px;
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 70px 0 10px 0;
 }
 
-.primeContent section article{
+.primeContent section article, .primeContent a, .primeContent iframe{
     width: 300px;
     height: 200px;
     margin: auto;
+    text-decoration: none;
+    background-size: cover;
 }
 
 .primeContent section{
     display: flex;
     flex-wrap: wrap;
+    background-color: #aad6e5
 }
 
 .primeContent h2{
@@ -83,44 +107,24 @@ h2{
     color: white;
 }
 
-/* article{
-    width: 300px;
-    height: 200px;
-    margin: auto;
-    
-}
-
-.interests{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
- .interests h2{
-     width: 100%
- }
-
-.interests article h3{
-    font-size: 20px;
-    color:white
-} */
 
 .interestMusic{
-    background-image: url("../images/music-background.jpg");
+    background-image: url("../images/music-FF.jpg");
    
 }
 
 .interestOutdoors{
-    background-image: url("../images/music-background.jpg");
+    background-image: url("../images/Outdoors.jpg");
     
 }
 
 .interestRockhounding{
-    background-image: url("../images/music-background.jpg");
+    background-image: url("../images/rockhounding.jpg");
     
 }
 
 .interestMartialarts{
-    background-image: url("../images/music-background.jpg");
+    background-image: url("../images/karate.jpg");
     
 }
 
@@ -155,7 +159,7 @@ h2{
 }
 
 footer h3{
-
 text-align: center;
 
 }
+
