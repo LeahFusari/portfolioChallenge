@@ -55,14 +55,14 @@ header nav ul li a{
     margin: 50px;
    }
 
-   .about-me {
+.about-me {
     font-size: 18px;
     line-height: 1.2;
     background-color: #5d99d7;
   }
 
 
-  .hero{
+.hero{
     background-image: url("../images/White-Mountains.jpg");
     background-size: cover;
     background-position: 80%;
@@ -83,11 +83,20 @@ h2{
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
     margin: 70px 0 10px 0;
 }
+ .aboutMe h2{
+     margin: 100px 0 30px 0;
+ }
 
-.primeContent section article, .primeContent a, .primeContent iframe{
+ .aboutMe p{
+     width: 400px;
+     text-align: center;
+    margin:0 auto;
+ }
+
+.primeContent a{
     width: 300px;
     height: 200px;
-    margin: auto;
+    margin: 30px;
     text-decoration: none;
     background-size: cover;
 }
@@ -131,14 +140,21 @@ h2{
     background-image: url("../images/karate.jpg");
     
 }
-
-.project1{
-    background-image: url("../images/music-background.jpg");
+.webDesign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#project1{
+    background-image: url("../images/run-buddy.jpg");
+    /* flex: 4 1 auto; */
+    height:400px;
+    width: 1000px;
    
 }
-
 .project2{
-    background-image: url("../images/music-background.jpg");
+    background-image: url("../images/Horiseon.jpg");
     
 }
 
