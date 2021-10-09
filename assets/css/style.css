@@ -70,10 +70,13 @@ header nav ul li a{
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
+    height: 600px;
 }
 .hero-profile-image{
     width: 300px; 
     justify-content:flex-start;
+    height: 500px;
+    width: 500px;
 }
 
 h2{
@@ -83,7 +86,6 @@ h2{
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
     margin: 30px 0 10px 0;
     padding: 90px 0 0 0;
-
     }
 
 
@@ -187,10 +189,14 @@ text-align: center;
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
 
+    h2{
+        padding: 120px 0 0 0; 
+    }
+
     header {
         padding-bottom: 0;
-        /* justify-content: center; */
         position: sticky;
+        
       }
 
      header h1{
@@ -213,4 +219,18 @@ text-align: center;
         margin: 0 20px;
         
     }
+
+    .hero{
+        justify-content: center;
+        /* width: 1000px; */
+    }
+
+    .aboutMe p{
+        margin: auto;
+        width: 950px;
+    }
+    /* .webDesign a{
+        height: 900px;
+        margin: 30px 0;
+    } */
 }
