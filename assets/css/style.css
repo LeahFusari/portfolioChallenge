@@ -184,3 +184,33 @@ text-align: center;
 
 }
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+    header {
+        padding-bottom: 0;
+        /* justify-content: center; */
+        position: sticky;
+      }
+
+     header h1{
+         width:100%;
+         text-align: center;
+      }
+
+      header nav{
+          width: 100%
+      }
+
+      header nav ul {
+        margin-bottom: 20px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+        margin: 0 20px;
+        
+    }
+}
