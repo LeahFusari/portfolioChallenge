@@ -231,7 +231,7 @@ text-align: center;
 
     .hero{
         justify-content: center;
-        /* width: 1000px; */
+        
     }
 
     .aboutMe p{
@@ -239,6 +239,30 @@ text-align: center;
         width: 950px;
     }
 
+    .interests{
+        justify-content: center;
+    }
  
-   
+   /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    .hero-profile-image{
+        height: 400px;
+        width: 400px;
+        margin-top: 50px;
+    }
+  }
+    .aboutMe p{
+        margin: auto;
+        width: 740px;
+        font-size: 20px;
+    }
+
+    .runBuddy{
+        height: 350px;
+    }
+
+    .moreProjects a{
+        height: 225px;
+        width: 225px;
+    }
 }
