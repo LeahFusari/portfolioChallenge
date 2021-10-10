@@ -6,6 +6,7 @@
 }
 :root{
     --distantMountain: #5d99d7;
+    --cloud:#afbfd6;
     --closerMountain:#315783;
     --mountainTop:#725b31;
    
@@ -138,10 +139,33 @@ h2{
     width: 100%;
 }
 
-.primeContent h3{
-    font-size: 40px;
+.lblProject1{
+    width: 260px;
+    background-color: var(--cloud);
     color: var(--closerMountain);
+    border-radius: 15px;
+    margin: 15px 0 0 15px;
+    border:var(--closerMountain) solid 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    text-shadow:0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+#project1 h3{
+    font-size: 40px;
+}
+
+.lblProject1 p{
+    padding: 0 0 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
 
 .primeContent p {
     color: white;
@@ -177,16 +201,46 @@ h2{
     background-image: url("../images/run-buddy.jpg");
     background-size: 110%;
     background-repeat: no-repeat;
-    height:400px;
+    height:450px;
     width: 1000px;
+    /* border:chartreuse solid 5px; */
 }
 
 .moreProjects {
     justify-content: space-evenly;
 }
 
+
 .moreProjects a {
     width: 400px;
+    height: 300px;
+}
+
+.lblMoreprojects{
+    width: 260px;
+    background-color: var(--cloud);
+    color: var(--closerMountain);
+    border-radius: 15px;
+    margin: 15px 0 0 15px;
+    border:var(--closerMountain) solid 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    text-shadow:0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.lblMoreprojects h3{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.lblMoreprojects p{
+    padding: 0 0 10px 0;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .project2{
@@ -204,6 +258,21 @@ h2{
     
 }
 
+.interests h3 {
+    width: 260px;
+    background-color: var(--cloud);
+    color: var(--closerMountain);
+    border-radius: 15px;
+    margin: 15px 0 0 15px;
+    border:var(--closerMountain) solid 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    text-shadow:0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
 .contactMe menu{
     text-align: center;
     font-size: 30px;
