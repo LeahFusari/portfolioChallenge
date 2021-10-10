@@ -103,6 +103,10 @@ nav li:hover, menu a:hover{
     margin: 40px 0 0 20px;
 }
 
+.hero-profile-image, #project1, .moreProjects a, .interests a{
+    box-shadow:0 0 30px rgba(0,0,0,1)
+}
+
 h2{
     text-align: center;
     font-style: italic;
@@ -137,22 +141,6 @@ h2{
 
 .primeContent h2{
     width: 100%;
-}
-
-.lblProject1{
-    width: 260px;
-    background-color: var(--cloud);
-    color: var(--closerMountain);
-    border-radius: 15px;
-    margin: 15px 0 0 15px;
-    border:var(--closerMountain) solid 2px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-content: center;
-    text-shadow:0 0 10px rgba(0,0,0,0.5);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 #project1 h3{
@@ -216,7 +204,7 @@ h2{
     height: 300px;
 }
 
-.lblMoreprojects{
+.lblProject1,.lblMoreprojects, .interests h3{
     width: 260px;
     background-color: var(--cloud);
     color: var(--closerMountain);
@@ -258,20 +246,8 @@ h2{
     
 }
 
-.interests h3 {
-    width: 260px;
-    background-color: var(--cloud);
-    color: var(--closerMountain);
-    border-radius: 15px;
-    margin: 15px 0 0 15px;
-    border:var(--closerMountain) solid 2px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-content: center;
-    text-shadow:0 0 10px rgba(0,0,0,0.5);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+.interests{
+    justify-content: space-around;
 }
 .contactMe menu{
     text-align: center;
@@ -362,12 +338,24 @@ text-align: center;
         height: 350px;
     }
 
+    .lblProject1{
+    width: 210px;
+    }
+
     #project1{
-        background-size: contain;
+        width: 700px;
+    }
+
+    #project1 h3{
+        font-size: 30px;
+    }
+
+    #project1 p{
+        font-size: 15px;
     }
     .moreProjects a{
-        height: 225px;
-        width: 225px;
+        height: 300px;
+        width: 300px;
     }
 }
      /* MEDIA QUERY FOR 375px AND SMALLER  - iPhone X 375x812 */
