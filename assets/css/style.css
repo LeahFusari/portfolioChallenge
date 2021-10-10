@@ -358,6 +358,27 @@ text-align: center;
     width: 700px;
 }
 
+.contactMe{
+    width:960px;
+}
+
+.contactMe h2{
+    padding: 0;
+}
+
+.contactMe a {
+    font-size: 70px;
+}
+
+footer{
+    margin-top: 30px;
+    width:980px;
+    font-size: 50px;
+}
+
+footer div{
+    text-align: center;
+}
 }
 
 
