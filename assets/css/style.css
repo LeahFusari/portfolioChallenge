@@ -6,6 +6,9 @@
 }
 :root{
     --distantMountain: #5d99d7;
+    --closerMountain:#315783;
+    --mountainTop:#725b31;
+   
 }
 body {
     background-color: var(--distantMountain);
@@ -24,6 +27,8 @@ header{
     background-attachment: fixed;
     /* z-index: 9999; */
 }
+
+
 
 header h1{
     font-size: 50px;
@@ -48,12 +53,22 @@ header nav ul{
 }
 
 header nav ul li a{
-    color: #2d475e;
+    color: var(--closerMountain);
     opacity: 0.75;
     font-family: cursive; 
     font-size: 25px;
     margin: 50px;
    }
+
+   nav li:hover, menu a:hover{
+    background: var(--mountainTop);
+    border-radius: 15px;
+    text-shadow: none;
+   }
+
+    nav li a:hover{
+       color: white;
+    }
 
 .about-me {
     font-size: 18px;
@@ -195,7 +210,7 @@ text-align: center;
 
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+/* MEDIA QUERY FOR 980px AND SMALLER */
 @media screen and (max-width: 980px) {
 
     h2{
@@ -239,11 +254,18 @@ text-align: center;
         width: 950px;
     }
 
+    #project1{
+        width: 900px;
+        height: 300px;
+        background-size: cover;
+    }
+     
+
     .interests{
         justify-content: center;
     }
  
-   /* MEDIA QUERY FOR TABLETS AND SMALLER */
+   /* MEDIA QUERY FOR 760px AND SMALLER */
   @media screen and (max-width: 768px) {
     .hero-profile-image{
         height: 400px;
@@ -265,4 +287,5 @@ text-align: center;
         height: 225px;
         width: 225px;
     }
+
 }
