@@ -1,19 +1,26 @@
+/* global css */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
+
+/* color variables */
 :root{
     --distantMountain: #5d99d7;
     --cloud:#afbfd6;
     --closerMountain:#315783;
-    --mountainTop:#725b31;
+    --mountainTop:#d6cac3;
    
 }
+
+/* Body */
 body {
     background-color: var(--distantMountain);
 }
+
+/* Header */
 header{
     Display: flex;
     align-items: center;
@@ -27,10 +34,7 @@ header{
     background-position: 80%;
     background-attachment: fixed;
     text-shadow: 0 0 10px rgba(0,0,0,0.5)
-    /* z-index: 9999; */
 }
-
-
 
 header h1{
     font-size: 50px;
@@ -41,7 +45,6 @@ header h1 a{
     color:var(--closerMountain)
 }
 
-
 header nav{
     display: flex;
     flex-wrap: wrap;
@@ -49,7 +52,6 @@ header nav{
     bottom: 150px;
     left: 400px;
     height: fit-content;
-   
 }
 
 header nav ul{
@@ -64,25 +66,17 @@ header nav ul li a{
     font-family: cursive; 
     font-size: 25px;
     margin: 50px;
-   }
+}
 
-nav li:hover, menu a:hover{
+/* Psudo-class for nav and my name (return to top) */
+header h1 a:hover, nav li a:hover, menu a:hover{
     background: var(--mountainTop);
     border-radius: 15px;
     text-shadow: none;
+    color: white;
    }
 
-    nav li a:hover{
-       color: white;
-    }
-
-.about-me {
-    font-size: 18px;
-    line-height: 1.2;
-    background-color: #5d99d7;
-  }
-
-
+   /* Hero */
 .hero{
     background-image: url("../images/White-Mountains.jpg");
     background-size: cover;
@@ -107,6 +101,7 @@ nav li:hover, menu a:hover{
     box-shadow:0 0 30px rgba(0,0,0,1)
 }
 
+/* General H2 style */
 h2{
     text-align: center;
     font-style: italic;
@@ -114,15 +109,26 @@ h2{
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
     margin: 30px 0 10px 0;
     padding: 90px 0 0 0;
-    }
+}
 
-
+  /* About Me Section */
+.about-me {
+    font-size: 18px;
+    line-height: 1.2;
+    background-color: #5d99d7;
+}
 .aboutMe p{
      width: 1000px;
      text-align: center;
      margin:0 auto;
      font-size: 25px;
- }
+}
+
+/* Prime Content Section */
+
+.primeContent p {
+    color: white;
+}
 
 .primeContent a{
     width: 300px;
@@ -143,6 +149,7 @@ h2{
     width: 100%;
 }
 
+/* Projects and project labels */
 #project1 h3{
     font-size: 40px;
 }
@@ -154,31 +161,6 @@ h2{
 }
 
 
-
-.primeContent p {
-    color: white;
-}
-
-
-.interestMusic{
-    background-image: url("../images/leah-guitar.jpg");
-   
-}
-
-.interestOutdoors{
-    background-image: url("../images/Outdoors.jpg");
-    
-}
-
-.interestRockhounding{
-    background-image: url("../images/rockhounding.jpg");
-    
-}
-
-.interestMartialarts{
-    background-image: url("../images/karate.jpg");
-    
-}
 .runBuddy{
     display: flex;
     flex-direction: column;
@@ -206,7 +188,7 @@ h2{
 
 .lblProject1,.lblMoreprojects, .interests h3{
     width: 260px;
-    background-color: var(--cloud);
+    background-color: var(--mountainTop);
     color: var(--closerMountain);
     border-radius: 15px;
     margin: 15px 0 0 15px;
@@ -231,6 +213,11 @@ h2{
     font-weight: bold;
 }
 
+#project1:hover, .moreProjects a:hover, .interests a:hover{
+transform: scale(1.2);
+
+}
+
 .project2{
     background-image: url("../images/Horiseon.jpg");
     
@@ -246,18 +233,41 @@ h2{
     
 }
 
+/* interests section */
+.interestMusic{
+    background-image: url("../images/leah-guitar.jpg");
+   
+}
+
+.interestOutdoors{
+    background-image: url("../images/Outdoors.jpg");
+    
+}
+
+.interestRockhounding{
+    background-image: url("../images/rockhounding.jpg");
+    
+}
+
+.interestMartialarts{
+    background-image: url("../images/karate.jpg");
+    
+}
 .interests{
     justify-content: space-around;
 }
+
+/* Contact Me section */
 .contactMe menu{
     text-align: center;
     font-size: 30px;
-   
 }
 
 .contactMe a {
     margin: 25px;
 }
+
+/* Footer */
 
 footer h3{
 text-align: center;

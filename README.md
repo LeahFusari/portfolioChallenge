@@ -9,6 +9,7 @@ AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 ```
+## Acceptence Criteria
 ```
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
@@ -29,5 +30,25 @@ Source:
 ```
 
 ## Explanation of the page
+```
+There was no source code given for this Challenge.  Although I did base my design losely on the 'Run Buddy' project from Lesson 2, all of the coding was written my me.
 
-<placeholder>
+My hero may seem pretty large but I plan to add to that as the project progresses as I assume it will.  For now, please enjoy the view atop Mt. Washington, NH.
+
+The first two project cards are links to the deployed projects and the last two are just placeholders.
+
+You can click on my interest cards to see a the full picture if you like.
+
+The Media Queries were written for:
+
+* max-width 980px
+* max-width 760px
+* iPhone X 375px x 812px
+
+It should be noted that the "Contact Me" links at the bottom do not show my real phone # or email, as I do not yet fully understand the privacy (or lack thereof) of github, but they do work.
+```
+### Link to deployed Portfolio Challenge
+
+https://leahfusari.github.io/portfolioChallenge/
+
+![image](https://user-images.githubusercontent.com/87339742/136713424-400182b3-de56-4e93-8c4a-c7c02f655658.png)
