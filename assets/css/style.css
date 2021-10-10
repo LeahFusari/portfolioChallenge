@@ -16,7 +16,7 @@ body {
 header{
     Display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
@@ -25,6 +25,7 @@ header{
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5)
     /* z-index: 9999; */
 }
 
@@ -32,9 +33,12 @@ header{
 
 header h1{
     font-size: 50px;
-
 }
 
+header h1 a{
+    text-decoration: none;
+    color:var(--closerMountain)
+}
 
 
 header nav{
@@ -61,7 +65,7 @@ header nav ul li a{
     margin: 50px;
    }
 
-   nav li:hover, menu a:hover{
+nav li:hover, menu a:hover{
     background: var(--mountainTop);
     border-radius: 15px;
     text-shadow: none;
@@ -86,13 +90,16 @@ header nav ul li a{
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
-    height: 600px;
+    height: 700px;
 }
 .hero-profile-image{
     width: 300px; 
     justify-content:flex-start;
     height: 500px;
     width: 500px;
+    border: 5px outset var(--closerMountain);
+    border-radius: 50%;
+    margin: 40px 0 0 20px;
 }
 
 h2{
@@ -105,7 +112,7 @@ h2{
     }
 
 
- .aboutMe p{
+.aboutMe p{
      width: 1000px;
      text-align: center;
      margin:0 auto;
@@ -118,6 +125,7 @@ h2{
     margin: 30px;
     text-decoration: none;
     background-size: cover;
+    border-radius: 15px;
 }
 
 .primeContent section{
@@ -131,8 +139,8 @@ h2{
 }
 
 .primeContent h3{
-    font-size: 20px;
-    color:white;
+    font-size: 40px;
+    color: var(--closerMountain);
 }
 
 .primeContent p {
@@ -167,7 +175,7 @@ h2{
 }
 #project1{
     background-image: url("../images/run-buddy.jpg");
-    background-size: contain;
+    background-size: 110%;
     background-repeat: no-repeat;
     height:400px;
     width: 1000px;
