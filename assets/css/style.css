@@ -49,6 +49,7 @@ header nav{
 
 header nav ul{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;   
 }
 
@@ -221,27 +222,27 @@ text-align: center;
         padding-bottom: 0;
         position: sticky;
         
-      }
+        }
 
-     header h1{
-         width:100%;
-         text-align: center;
-      }
+    header h1{
+        width:100%;
+        text-align: center;
+    }
 
-      header nav{
-          width: 100%
-      }
+    header nav{
+        width: 100%
+    }
 
-      header nav ul {
-        margin-bottom: 20px;
-        width: 100%;
-        justify-content: space-evenly;
+    header nav ul {
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: space-evenly;
     }
 
     header nav ul li a {
         font-size: 20px;
         margin: 0 20px;
-        
+    
     }
 
     .hero{
@@ -252,6 +253,7 @@ text-align: center;
     .aboutMe p{
         margin: auto;
         width: 950px;
+        font-size: 20px;
     }
 
     #project1{
@@ -259,20 +261,20 @@ text-align: center;
         height: 300px;
         background-size: cover;
     }
-     
+        
 
     .interests{
         justify-content: center;
     }
- 
-   /* MEDIA QUERY FOR 760px AND SMALLER */
-  @media screen and (max-width: 768px) {
+}
+    /* MEDIA QUERY FOR 760px AND SMALLER */
+    @media screen and (max-width: 768px) {
     .hero-profile-image{
         height: 400px;
         width: 400px;
         margin-top: 50px;
     }
-  }
+
     .aboutMe p{
         margin: auto;
         width: 740px;
@@ -283,9 +285,82 @@ text-align: center;
         height: 350px;
     }
 
+    #project1{
+        background-size: contain;
+    }
     .moreProjects a{
         height: 225px;
         width: 225px;
     }
+}
+     /* MEDIA QUERY FOR 375px AND SMALLER  - iPhone X 375x812 */
+     @media only screen and (max-device-width: 375px) {
+
+    header{
+        width: 980px
+    }
+
+    header h1{
+        font-size: 100px;
+    }
+
+    header nav ul li a {
+        margin: 0 15px;
+        font-size: 40px;
+    }
+
+    .hero{
+        width: 980px;
+        height: 1500px;
+    }
+    
+    .hero-profile-image{
+        height: 800px;
+        width: 800px;
+       
+    }
+
+     h2{
+        width:980px;
+        font-size: 70px;
+        padding: 200px 0 0 0;
+    }
+
+    .aboutMe p {
+        width: 980px;
+        font-size: 40px;
+        margin: 0;
+        padding: 0 40px 0 40px;
+    }
+    .primeContent{
+        width: 980px;
+    }
+
+    #project1{
+        background-size: cover;
+        background-position: 75%;
+        height: 1200px;
+    }
+
+    .moreProjects a {
+        height: 700px;
+        width: 700px;
+        margin:60px 0 0 0;
+    }
+
+.runBuddy{
+    flex-direction: row;
+    margin-bottom: 900px;
+}
+
+.interests a {
+    height: 700px;
+    width: 700px;
+}
 
 }
+
+
+
+
+    
