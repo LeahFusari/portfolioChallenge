@@ -11,7 +11,7 @@
     --distantMountain: #5d99d7;
     --cloud:#afbfd6;
     --closerMountain:#315783;
-    --mountainTop:#d6cac3;
+    --mountainTop: 214, 202, 195;
    
 }
 
@@ -97,7 +97,7 @@ header h1 a:hover, nav li a:hover, menu a:hover{
     margin: 40px 0 0 20px;
 }
 
-.hero-profile-image, #project1, .moreProjects a, .interests a{
+.hero-profile-image, #project1, .MoreProjects a, .interests a{
     box-shadow:0 0 30px rgba(0,0,0,1)
 }
 
@@ -161,34 +161,35 @@ h2{
 }
 
 
-.runBuddy{
+.topProject{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 #project1{
-    background-image: url("../images/run-buddy.jpg");
+    background-image: url("../images/holiday-exchenge.jpg");
     background-size: 110%;
     background-repeat: no-repeat;
     height:450px;
     width: 1000px;
-    /* border:chartreuse solid 5px; */
 }
 
-.moreProjects {
+.MoreProjects {
     justify-content: space-evenly;
 }
 
 
-.moreProjects a {
+.MoreProjects a {
     width: 400px;
     height: 300px;
 }
 
-.lblProject1,.lblMoreprojects, .interests h3{
+.lblProject1,.lblMoreProjects, .interests h3{
     width: 260px;
-    background-color: var(--mountainTop);
+    text-align: center;
+    background-color: rgba(var(--mountainTop), 0.8);
     color: var(--closerMountain);
     border-radius: 15px;
     margin: 15px 0 0 15px;
@@ -202,34 +203,34 @@ h2{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.lblMoreprojects h3{
-    font-size: 25px;
+.lblMoreProjects h3{
+    font-size: 30px;
     padding: 5px;
 }
 
-.lblMoreprojects p{
+.lblMoreProjects p{
     padding: 0 0 10px 0;
     font-size: 20px;
     font-weight: bold;
 }
 
-#project1:hover, .moreProjects a:hover, .interests a:hover{
+#project1:hover, .MoreProjects a:hover, .interests a:hover{
 transform: scale(1.2);
 
 }
 
-.project2{
+#project2{
     background-image: url("../images/Horiseon.jpg");
     
 }
 
-.project3{
-    background-image: url("../images/music-background.jpg");
+#project3{
+    background-image: url("../images/run-buddy.jpg");
     
 }
 
-.project4{
-    background-image: url("../images/music-background.jpg");
+#project4{
+    background-image: url("../images/Weather-Dash.jpg");
     
 }
 
@@ -344,7 +345,7 @@ text-align: center;
         font-size: 20px;
     }
 
-    .runBuddy{
+    .topProject{
         height: 350px;
     }
 
@@ -363,7 +364,7 @@ text-align: center;
     #project1 p{
         font-size: 15px;
     }
-    .moreProjects a{
+    .MoreProjects a{
         height: 300px;
         width: 300px;
     }
@@ -417,46 +418,46 @@ text-align: center;
         height: 1200px;
     }
 
-    .moreProjects a {
+    .MoreProjects a {
         height: 700px;
         width: 700px;
         margin:60px 0 0 0;
     }
 
-.runBuddy{
-    flex-direction: row;
-    margin-bottom: 900px;
-}
+    .topProject{
+        flex-direction: row;
+        margin-bottom: 900px;
+    }
 
-.interests a {
-    height: 700px;
-    width: 700px;
-}
+    .interests a {
+        height: 700px;
+        width: 700px;
+    }
 
-.contactMe{
-    width:960px;
-}
+    .contactMe{
+        width:960px;
+    }
 
-.contactMe h2{
-    padding: 0;
-}
+    .contactMe h2{
+        padding: 0;
+    }
 
-.contactMe a {
-    font-size: 70px;
-}
+    .contactMe a {
+        font-size: 70px;
+    }
 
-footer{
-    margin-top: 30px;
-    width:980px;
-    font-size: 50px;
-}
+    footer{
+        margin-top: 30px;
+        width:980px;
+        font-size: 50px;
+    }
 
-footer div{
-    text-align: center;
-}
-}
-
-
+    footer div{
+        text-align: center;
+    }
+    }
 
 
-    
+
+
+        
